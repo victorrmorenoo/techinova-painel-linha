@@ -8,4 +8,5 @@ Abra o arquivo `index.html` no navegador. Nao precisa de servidor web.
 
 ## Identificacao
 
-<!-- Escreva aqui seu nome completo e sua matricula -->
+Nome: Victor Moreno Barbara  
+Matrícula: 26174746
