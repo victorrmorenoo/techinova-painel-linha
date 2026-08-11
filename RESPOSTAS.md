@@ -1,24 +1,22 @@
 # Respostas do LAB 01
 
-Nome:
-Matricula:
-Dupla (M2 em diante):
+Nome: Victor Moreno Barbara
+Matricula: 26174746
+Dupla (M2 em diante): -
 
 ---
 
 ## M2 - Quem quebrou o painel
 
-**Hash curto do commit que introduziu o erro:**
-
-**Autor:**
-
-**Data:**
+**Hash curto do commit que introduziu o erro:** 745a751  
+**Autor:** Victor Moreno <victoormorenoo20@gmail.com>  
+**Data:** Tue Aug 11 11:50:57 2026  
 
 **Linha alterada (antes e depois):**
 
 ```
-antes:
-depois:
+antes: return leitura * 9 / 5 + 32;
+depois: return leitura * 9 / 5 + 30;
 ```
 
 ---
