@@ -28,5 +28,11 @@
     "descricao": "Vibracao do eixo principal",
     "valor": 68.0,
     "unidade": "F"
+  },
+  {
+    "codigo": "S-746",
+    "descricao": "Camara fria",
+    "valor": 68.0,
+    "unidade": "F"
   }
 ]
