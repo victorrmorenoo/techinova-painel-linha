@@ -3,36 +3,49 @@
   <head>
     <meta charset="utf-8">
     <title>TechInova | Painel da Linha 3</title>
+
+    <!-- Criando pull request para qa -->
+    <!-- Teste de template de pull request -->
+
     <link rel="stylesheet" href="css/style.css">
   </head>
+
   <body>
     <header>
-      <h1>Painel da Linha 3</h1>
+      <h1>Painel de Linha 3 - Monitoramento TechInova</h1>
     </header>
 
     <main>
       <table id="sensores">
         <thead>
           <tr>
-            <th>Codigo</th>
-            <th>Sensor de temperatuura.</th>
-            <th>Leitura</th>
-            <th>Status</th>
+            <th scope="col">Código</th>
+            <th scope="col">Sensor de temperatura</th>
+            <th scope="col">Leitura</th>
+            <th scope="col">Status</th>
           </tr>
         </thead>
+
         <tbody>
+          <tr>
+            <td>S-817</td>
+            <td>Sensor de temperatura</td>
+            <td>--</td>
+            <td>OK</td>
+          </tr>
         </tbody>
       </table>
+
+      <section id="alertas">
+        <h2>Alertas</h2>
+        <ul id="lista-alertas" aria-live="assertive"></ul>
+      </section>
     </main>
 
-    <section id="alertas">
-      <h2>Alertas</h2>
-      <ul id="lista-alertas"></ul>
-    </section>
-
     <footer>
-      <p>Ultima leitura: <span id="atualizado">--</span></p>
+      <p>Última leitura: <span id="atualizado">--</span></p>
     </footer>
+
     <script src="js/painel.js"></script>
   </body>
 </html>
